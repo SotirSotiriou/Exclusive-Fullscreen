@@ -10,7 +10,7 @@
     console.log("[ExclusiveFullscreen] Spicetify API detected. Building UI overlay...");
 
     // Configuration & Caching Options
-    const USE_CACHE = true; // Set to false to completely disable caching
+    const USE_CACHE = false; // Set to false to completely disable caching
     const CACHE_KEY = "spicetify_fullscreen_lyrics_cache";
     const MAX_CACHE_ITEMS = 300;
     const CACHE_TTL_MS = 3 * 24 * 60 * 60 * 1000;
